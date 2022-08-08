@@ -10,8 +10,6 @@ Did you know that non-linearity played a significant role in the emergence of li
 
 # Testing out latex
 
-$$ \nabla_\boldsymbol{x} J(\boldsymbol{x}) $$
-
 Probably some of you are already asking what is homochirality, what is non-linearity etc. So let me start from the very basic idea from biology and chemistry and then I will explain the main model. So, today's game plan is to:
      - I
      - I
