@@ -20,9 +20,13 @@ Now, the big debate is that how come homochirality emerged in life! Naturally, i
 Charles Franck suggested a mechanism that says homochirality is a consequence of chemical autocatalysis. Frank’s mechanism is based on the concept of non-linearity.  He introduces an inhibition reaction coupled with an autocatalytic reaction that can give emergence to homochirality. Before proceeding, let me discuss what we mean by a mechanism of the origin of homochirality. If a system has several (at least two) equally likely outcomes but exhibits only certain (or one) outcome(s), then the system is asymmetric with respect to those outcomes. For example, achiral molecules produce a racemic mixture of chiral molecules. However, we see only homochiral molecules in life. So, we say that somewhere sometimes their symmetry broke and the system (here life) chose one outcome (here homochirality). This is called symmetry-breaking. This symmetry can break spontaneously, or due to fluctuations, or amplification. Frank’s model shows that the symmetry of D and L molecules broke because of amplification i.e. an autocatalysis reaction occurred that was coupled with an inhibition reaction.
 
 Frank proposed three chemical reactions: (reaction rate inside the parenthesis)
-(1) autocatalysis of D-molecule: A + D → 2D    (k¬¬a)
-(2) autocatalysis of L-molecule: A + L → 2L    (ka)
-(3) chiral inhibition (mutual antagonism of D-molecule and L-molecule): D + L → 0    (ki)
+
+(1) autocatalysis of D-molecule: $ A + D → 2D $    $(k<sub>a</sub>)$
+
+(2) autocatalysis of L-molecule: $ A + L → 2L $    $(k_a)$
+
+(3) chiral inhibition (mutual antagonism of D-molecule and L-molecule): $ D + L → 0  $  (k<sub>i</sub>)
+
 Now, the law of mass action says that the rate of an equation is directly proportional to the product of the concentrations of the reactants. So, for the following reaction with reaction rate k, aA + bB = cC + dD, we can say that at equilibrium k = ([A]a[B]b)/([C]c[D]d), where [X] refers to the concentration of molecule X. Anyways, we only need this law in an intuitive manner. So, let’s see the time evolution of the concentrations of D and L in this system. Let [D] and [L] be instantaneous concentrations of D-molecule and L-molecule, respectively, at some time t. Then, mass-action law says, at time t, [D] is increasing at a rate ka*[A]*[D] due to reaction (1) and is decreasing at a rate ki*[L]*[D] due to reaction (2). So, 
 ⅆ[D]/ⅆt=K_a [A][D]-K_i [L][D]
 Similarly, we will have,
