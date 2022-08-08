@@ -21,9 +21,9 @@ Charles Franck suggested a mechanism that says homochirality is a consequence of
 
 Frank proposed three chemical reactions: (reaction rate inside the parenthesis)
 
-(1) autocatalysis of D-molecule: $ A + D → 2D $    $(k<sub>a</sub>)$
+(1) autocatalysis of D-molecule: \( A + D → 2D )   \(k<sub>a</sub>)
 
-(2) autocatalysis of L-molecule: $ A + L → 2L $    $(k_a)$
+(2) autocatalysis of L-molecule: \( A + L → 2L )    \(k_a)
 
 (3) chiral inhibition (mutual antagonism of D-molecule and L-molecule): $ D + L → 0  $  (k<sub>i</sub>)
 
