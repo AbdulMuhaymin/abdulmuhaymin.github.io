@@ -108,17 +108,36 @@ an intuitive manner. So, let’s see the time evolution of the concentrations of
 and L in this system. Let $$[D]$$ and $$[L]$$ be instantaneous concentrations of
 D-molecule and L-molecule, respectively, at some time $$t$$. Then, mass-action
 law says, at time $$t$$, $$[D]$$ is increasing at a rate $$k_a[A][D]$$ due to
-reaction **(1)** and is decreasing at a rate ki*[L]*[D] due to reaction (2). So,
-ⅆ[D]/ⅆt=K_a [A][D]-K_i [L][D] Similarly, we will have, ⅆ[L]/ⅆt=K_a [A][L]-K_i
-[L][D] Doing a linearization, the corresponding matrix equation is: (█(d ̇\@l ̇
-))=(■(k_a A&-k_i d\@-k_i l&k_a A))(█(d\@l)) where, for the simplicity, d = [D],
-l = [L] and we use dot-notation for the time derivative. In the matrix, the
-trace and the determinant are: τ=2k_a A and Δ=k_a\^2 A2-k_i2 lⅆ So, there will
-be a saddle point if Δ\<0 or ld\>((k_a A)/k_i )\^2 . Also, since ka, ki and all
-the concentrations are positive number (non-trivial case), τ \> 0 and
-τ2-4Δ=4k_i2 ld\>0. Therefore, for ld\<((k_a A)/k_i )\^2 there exists an unstable
-node for non-zero concentration. This is seen in figure 1, where we plotted the
-phase portrait of [D] and [L] , x and y in the figure respectively.
+reaction **(1)** and is decreasing at a rate ki*[L]*[D] due to reaction (2).
+
+ 
+
+So, ⅆ[D]/ⅆt=K_a [A][D]-K_i [L][D]
+
+ 
+
+Similarly, we will have, ⅆ[L]/ⅆt=K_a [A][L]-K_i [L][D]
+
+ 
+
+Doing a linearization, the corresponding matrix equation is:
+
+ 
+
+(█(d ̇\@l ̇ ))=(■(k_a A&-k_i d\@-k_i l&k_a A))(█(d\@l))
+
+ 
+
+where, for the simplicity, d = [D], l = [L] and we use dot-notation for the time
+derivative. In the matrix, the trace and the determinant are:
+
+τ=2k_a A and Δ=k_a\^2 A2-k_i2 lⅆ
+
+So, there will be a saddle point if Δ\<0 or ld\>((k_a A)/k_i )\^2 . Also, since
+ka, ki and all the concentrations are positive number (non-trivial case), τ \> 0
+and τ2-4Δ=4k_i2 ld\>0. Therefore, for ld\<((k_a A)/k_i )\^2 there exists an
+unstable node for non-zero concentration. This is seen in figure 1, where we
+plotted the phase portrait of [D] and [L] , x and y in the figure respectively.
 
 Figure 1: Phase portrait of Frank's original proposal. Two equilibrium points
 can be seen, an unstable node at (0,0) and a saddle point at (1.4,1.4)
