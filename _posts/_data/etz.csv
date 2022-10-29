@@ -1,0 +1,67 @@
+# This file was produced by the NASA Exoplanet Archive  http://exoplanetarchive.ipac.caltech.edu
+# Sat Oct 29 14:41:38 2022
+#
+# User preference: *
+#
+# CONSTRAINT:  where (elat in [-.269,.269])
+# CONSTRAINT:  order by sy_dist asc
+#
+# COLUMN pl_name:        Planet Name
+# COLUMN gaia_id:        GAIA ID
+# COLUMN elat:           Ecliptic Latitude [deg]
+# COLUMN sy_dist:        Distance [pc]
+# COLUMN pl_orbper:      Orbital Period [days]
+# COLUMN pl_rade:        Planet Radius [Earth Radius]
+# COLUMN pl_bmasse:      Planet Mass or Mass*sin(i) [Earth Mass]
+# COLUMN pl_bmassprov:   Planet Mass or Mass*sin(i) Provenance
+# COLUMN pl_dens:        Planet Density [g/cm**3]
+# COLUMN pl_orbincl:     Inclination [deg]
+# COLUMN pl_eqt:         Equilibrium Temperature [K]
+# COLUMN st_spectype:    Spectral Type
+# COLUMN st_teff:        Stellar Effective Temperature [K]
+# COLUMN st_rad:         Stellar Radius [Solar Radius]
+# COLUMN st_mass:        Stellar Mass [Solar mass]
+# COLUMN st_lum:         Stellar Luminosity [log(Solar)]
+# COLUMN st_logg:        Stellar Surface Gravity [log10(cm/s**2)]
+# COLUMN st_dens:        Stellar Density [g/cm**3]
+# COLUMN ra:             RA [deg]
+# COLUMN dec:            Dec [deg]
+# COLUMN sy_plx:         Parallax [mas]
+# COLUMN disc_year:      Discovery Year
+# COLUMN discoverymethod: Discovery Method
+# COLUMN disc_refname:   Discovery Reference
+#
+pl_name,gaia_id,elat,sy_dist,pl_orbper,pl_rade,pl_bmasse,pl_bmassprov,pl_dens,pl_orbincl,pl_eqt,st_spectype,st_teff,st_rad,st_mass,st_lum,st_logg,st_dens,ra,dec,sy_plx,disc_year,discoverymethod,disc_refname
+K2-65 b,,0.12139,72.2000000,12.64750000,1.580,3.12000,M-R relationship,4.350000,89.148,,,5213.00,0.84,0.87,-0.328,4.53,,333.2125206,-10.9261373,15.5932000,2016,Transit,<a refstr=CROSSFIELD_ET_AL__2016 href=https://ui.adsabs.harvard.edu/abs/2016ApJS..226....7C/abstract target=ref>Crossfield et al. 2016</a>
+K2-155 b,Gaia DR2 145333927996558976,-0.16969,72.7998000,6.34200000,1.800,3.89000,M-R relationship,3.670000,88.300,708,K7,4258.00,0.58,0.65,-1.229,4.60,5.41000,65.4696140,21.3532633,13.7077000,2018,Transit,<a refstr=HIRANO_ET_AL__2018 href=https://ui.adsabs.harvard.edu/abs/2018AJ....155..124H/abstract target=ref>Hirano et al. 2018</a>
+K2-155 c,Gaia DR2 145333927996558976,-0.16969,72.7998000,13.85000000,2.600,7.27000,M-R relationship,2.270000,88.960,583,K7,4258.00,0.58,0.65,-1.229,4.60,5.41000,65.4696140,21.3532633,13.7077000,2018,Transit,<a refstr=HIRANO_ET_AL__2018 href=https://ui.adsabs.harvard.edu/abs/2018AJ....155..124H/abstract target=ref>Hirano et al. 2018</a>
+K2-155 d,Gaia DR2 145333927996558976,-0.16969,72.7998000,40.71800000,1.900,4.27000,M-R relationship,3.420000,89.610,381,K7,4258.00,0.58,0.65,-1.229,4.60,5.41000,65.4696140,21.3532633,13.7077000,2018,Transit,<a refstr=HIRANO_ET_AL__2018 href=https://ui.adsabs.harvard.edu/abs/2018AJ....155..124H/abstract target=ref>Hirano et al. 2018</a>
+K2-240 b,Gaia DR2 6257625719430982016,-0.05449,72.9105000,6.03400000,2.000,4.66000,M-R relationship,3.200000,89.260,586,M0.5 V,3810.00,0.54,0.58,-1.276,4.70,4.32946,227.8493710,-17.8754464,13.6878000,2018,Transit,<a refstr=D_IACUTE_EZ_ALONSO_ET_AL__2018 href=https://ui.adsabs.harvard.edu/abs/2018MNRAS.480L...1D/abstract target=ref>D&iacute;ez Alonso et al. 2018</a>
+K2-240 c,Gaia DR2 6257625719430982016,-0.05449,72.9105000,20.52300000,1.800,3.89000,M-R relationship,3.670000,89.660,389,M0.5 V,3810.00,0.54,0.58,-1.276,4.70,4.32946,227.8493710,-17.8754464,13.6878000,2018,Transit,<a refstr=D_IACUTE_EZ_ALONSO_ET_AL__2018 href=https://ui.adsabs.harvard.edu/abs/2018MNRAS.480L...1D/abstract target=ref>D&iacute;ez Alonso et al. 2018</a>
+1RXS J160929.1-210524 b,Gaia DR2 6243841249531772800,-0.06852,139.1350000,,18.647,3000.00000,Mass,2.540000,,1700,K7 V,4060.00,1.31,0.85,-0.370,4.00,0.38789,242.3762343,-21.0831403,7.1594900,2008,Imaging,<a refstr=LAFRENIERE_ET_AL__2008 href=https://ui.adsabs.harvard.edu/abs/2008ApJ...689L.153L/abstract target=ref> Lafreniere et al. 2008 </a>
+LkCa 15 b,Gaia DR2 144936836795636864,0.20507,158.1520000,,,,Msini,,50.000,,,4194.00,1.61,,-0.192,3.65,,69.8241791,22.3508662,6.2946500,2015,Imaging,<a refstr=SALLUM_ET_AL__2015 href=https://ui.adsabs.harvard.edu/abs/2015Natur.527..342S/abstract target=ref>Sallum et al. 2015</a>
+LkCa 15 c,Gaia DR2 144936836795636864,0.20507,158.1520000,,,,Msini,,50.000,,,4194.00,1.61,,-0.192,3.65,,69.8241791,22.3508662,6.2946500,2015,Imaging,<a refstr=SALLUM_ET_AL__2015 href=https://ui.adsabs.harvard.edu/abs/2015Natur.527..342S/abstract target=ref>Sallum et al. 2015</a>
+K2-408 b,Gaia DR2 6257641627989839744,0.14690,162.3060000,20.97895900,1.677,3.45000,M-R relationship,4.020000,,,G7,5335.00,0.78,0.81,-0.330,4.56,2.29463,227.9168555,-17.6842698,6.1329600,2022,Transit,<a refstr=CHRISTIANSEN_ET_AL__2022 href=https://ui.adsabs.harvard.edu/abs/2022arXiv220302087C/abstract target=ref>Christiansen et al. 2022</a>
+K2-68 b,Gaia DR2 2614734243939231232,0.17407,168.6520000,8.05428000,1.580,3.12000,M-R relationship,4.350000,88.715,,,4746.00,0.68,0.73,-0.673,4.63,3.28491,334.0195539,-10.5673649,5.9009200,2016,Transit,<a refstr=CROSSFIELD_ET_AL__2016 href=https://ui.adsabs.harvard.edu/abs/2016ApJS..226....7C/abstract target=ref>Crossfield et al. 2016</a>
+K2-368 b,Gaia DR2 2613924969021549440,0.09746,206.6080000,5.02559800,1.332,2.34000,M-R relationship,5.440000,,,,4663.00,0.66,0.75,-0.693,4.67,3.55289,332.6357627,-11.1661157,4.8113800,2022,Transit,<a refstr=CHRISTIANSEN_ET_AL__2022 href=https://ui.adsabs.harvard.edu/abs/2022arXiv220302087C/abstract target=ref>Christiansen et al. 2022</a>
+K2-368 c,Gaia DR2 2613924969021549440,0.09746,206.6080000,9.66018600,1.361,2.42000,M-R relationship,5.270000,,,,4663.00,0.66,0.75,-0.693,4.67,3.55289,332.6357627,-11.1661157,4.8113800,2022,Transit,<a refstr=CHRISTIANSEN_ET_AL__2022 href=https://ui.adsabs.harvard.edu/abs/2022arXiv220302087C/abstract target=ref>Christiansen et al. 2022</a>
+K2-368 d,Gaia DR2 2613924969021549440,0.09746,206.6080000,20.20108500,1.948,4.45000,M-R relationship,3.310000,,,,4663.00,0.66,0.75,-0.693,4.67,3.55289,332.6357627,-11.1661157,4.8113800,2022,Transit,<a refstr=CHRISTIANSEN_ET_AL__2022 href=https://ui.adsabs.harvard.edu/abs/2022arXiv220302087C/abstract target=ref>Christiansen et al. 2022</a>
+WASP-68 b,Gaia DR2 6860535606196306304,0.21065,226.3990000,5.08430000,14.796,343.25640,Mass,0.665000,88.100,1490,G0,5910.00,1.79,1.49,0.505,4.17,0.36000,305.0957239,-19.3147271,4.3883900,2014,Transit,<a refstr=DELREZ_ET_AL__2014 href=https://ui.adsabs.harvard.edu/abs/2014A%26A...563A.143D/abstract target=ref> Delrez et al. 2014 </a>
+K2-86 b,Gaia DR2 55994798604873216,-0.11574,258.6990000,8.77683000,1.960,4.50000,M-R relationship,3.280000,88.560,,,5482.00,0.76,0.79,-0.386,4.58,2.16081,51.5531053,18.6355718,3.8371700,2016,Transit,<a refstr=CROSSFIELD_ET_AL__2016 href=https://ui.adsabs.harvard.edu/abs/2016ApJS..226....7C/abstract target=ref>Crossfield et al. 2016</a>
+WASP-47 b,Gaia DR2 2613413008919918976,-0.20871,264.7800000,4.15914920,12.640,363.60000,Mass,0.989000,89.020,1275,,5552.00,1.14,1.04,0.032,4.34,0.99800,331.2030920,-12.0190670,3.7496400,2012,Transit,<a refstr=HELLIER_ET_AL__2012 href=https://ui.adsabs.harvard.edu/abs/2012MNRAS.426..739H/abstract target=ref> Hellier et al. 2012 </a>
+WASP-47 c,Gaia DR2 2613413008919918976,-0.20871,264.7800000,588.80000000,13.500,500.00000,Mass,1.120000,87.000,247,,5552.00,1.14,1.04,0.024,4.34,0.99800,331.2030920,-12.0190670,3.7496400,2015,Radial Velocity,<a refstr=NEVEU_VANMALLE_ET_AL__2015 href=https://ui.adsabs.harvard.edu/abs/2015arXiv150907750N/abstract target=ref>Neveu-VanMalle et al. 2015</a>
+WASP-47 d,Gaia DR2 2613413008919918976,-0.20871,264.7800000,9.03055000,3.567,14.20000,Mass,1.720000,89.220,,,5552.00,1.14,1.04,0.032,4.34,0.99800,331.2030920,-12.0190670,3.7496400,2015,Transit,<a refstr=BECKER_ET_AL__2015 href=https://ui.adsabs.harvard.edu/abs/2015arXiv150802411B/abstract target=ref>Becker et al. 2015</a>
+WASP-47 e,Gaia DR2 2613413008919918976,-0.20871,264.7800000,0.78959330,1.808,6.77000,Mass,6.290000,85.980,,,5552.00,1.14,1.04,0.032,4.34,0.99800,331.2030920,-12.0190670,3.7496400,2015,Transit,<a refstr=BECKER_ET_AL__2015 href=https://ui.adsabs.harvard.edu/abs/2015arXiv150802411B/abstract target=ref>Becker et al. 2015</a>
+K2-39 b,Gaia DR2 2609222216055014144,0.05348,307.4700000,4.60543000,6.277,28.60470,Mass,0.500000,80.390,1670,,4881.00,2.97,0.66,0.674,3.44,0.04000,338.3682095,-9.0229405,3.2244000,2016,Transit,<a refstr=VAN_EYLEN_ET_AL__2016 href=https://ui.adsabs.harvard.edu/abs/2016AJ....152..143V/abstract target=ref>Van Eylen et al. 2016</a>
+K2-195 b,Gaia DR2 3624969886932157568,-0.13184,315.0140000,15.85297500,3.130,9.96000,M-R relationship,1.780000,89.041,720,,5713.00,0.99,0.94,-0.012,4.42,1.09000,199.8315191,-8.5095364,3.1462700,2018,Transit,<a refstr=MAYO_ET_AL__2018 href=https://ui.adsabs.harvard.edu/abs/2018AJ....155..136M/abstract target=ref>Mayo et al. 2018</a>
+K2-195 c,Gaia DR2 3624969886932157568,-0.13184,315.0140000,28.48278600,2.576,7.16000,M-R relationship,2.300000,88.537,,,5712.00,0.91,0.96,-0.053,4.55,1.48050,199.8315191,-8.5095364,3.1462700,2018,Transit,<a refstr=MAYO_ET_AL__2018 href=https://ui.adsabs.harvard.edu/abs/2018AJ....155..136M/abstract target=ref>Mayo et al. 2018</a>
+K2-374 b,Gaia DR2 607937055787752576,-0.00490,359.4390000,4.52195300,1.593,3.16000,M-R relationship,4.300000,,,G3,5789.00,0.91,0.73,-0.059,4.39,1.82777,137.3794986,16.3558324,2.7537200,2022,Transit,<a refstr=CHRISTIANSEN_ET_AL__2022 href=https://ui.adsabs.harvard.edu/abs/2022arXiv220302087C/abstract target=ref>Christiansen et al. 2022</a>
+K2-374 c,Gaia DR2 607937055787752576,-0.00490,359.4390000,16.43445000,2.213,5.53000,M-R relationship,2.800000,,,G3,5789.00,0.91,0.73,-0.059,4.39,1.82777,137.3794986,16.3558324,2.7537200,2022,Transit,<a refstr=CHRISTIANSEN_ET_AL__2022 href=https://ui.adsabs.harvard.edu/abs/2022arXiv220302087C/abstract target=ref>Christiansen et al. 2022</a>
+K2-74 b,Gaia DR2 2609566053956741888,-0.22989,377.8220000,19.56660000,2.310,5.95000,M-R relationship,2.650000,88.920,,,6060.00,0.98,0.96,0.060,4.44,1.46962,339.9192984,-8.7145697,2.6188000,2016,Transit,<a refstr=CROSSFIELD_ET_AL__2016 href=https://ui.adsabs.harvard.edu/abs/2016ApJS..226....7C/abstract target=ref>Crossfield et al. 2016</a>
+K2-272 b,Gaia DR2 659826037455527040,-0.14617,423.0650000,14.45367560,3.130,9.96000,M-R relationship,1.780000,,747,,5397.00,0.83,0.86,-0.302,4.53,2.57700,132.6211743,17.5423852,2.3350500,2018,Transit,<a refstr=LIVINGSTON_ET_AL__2018 href=https://ui.adsabs.harvard.edu/abs/2018AJ....156..277L/abstract target=ref>Livingston et al. 2018</a>
+K2-64 b,Gaia DR2 2613822710144971776,-0.07140,499.8910000,6.53044000,2.070,4.94000,M-R relationship,3.060000,,,,5312.00,0.73,0.74,-0.234,4.58,1.97545,332.4138478,-11.4286687,1.9729100,2016,Transit,<a refstr=CROSSFIELD_ET_AL__2016 href=https://ui.adsabs.harvard.edu/abs/2016ApJS..226....7C/abstract target=ref>Crossfield et al. 2016</a>
+K2-196 b,Gaia DR2 3625009164407557760,0.13400,584.8770000,48.32422200,3.600,12.60000,M-R relationship,1.480000,88.274,,,6045.00,1.54,1.16,0.644,4.08,0.19854,200.4562487,-8.4717104,1.6832600,2018,Transit,<a refstr=MAYO_ET_AL__2018 href=https://ui.adsabs.harvard.edu/abs/2018AJ....155..136M/abstract target=ref>Mayo et al. 2018</a>
+K2-340 b,Gaia DR2 662705555330268928,0.19120,738.1360000,29.74045100,3.360,11.20000,M-R relationship,1.620000,,606,,5532.00,1.13,0.93,-0.002,4.30,0.98178,127.9373409,19.0745863,1.3260000,2016,Transit,<a refstr=POPE_ET_AL__2016 href=https://ui.adsabs.harvard.edu/abs/2016MNRAS.461.3399P/abstract target=ref>Pope et al. 2016</a>
+HATS-11 b,Gaia DR2 6771149120491232768,-0.14734,944.6030000,3.61918800,18.030,263.79890,Mass,0.315000,89.030,1596,G0,6563.00,1.54,1.33,0.403,4.19,0.47900,289.4007603,-22.3900092,1.0313500,2016,Transit,<a refstr=RABUS_ET_AL__2016 href=https://ui.adsabs.harvard.edu/abs/2016AJ....152...88R/abstract target=ref>Rabus et al. 2016</a>
+KMT-2016-BLG-2397L b,,0.19215,4880.0000000,,13.200,836.00000,Mass,2.000000,,,,,,0.64,,,,266.2125420,-23.2013806,,2020,Microlensing,<a refstr=HAN_ET_AL__2020 href=https://ui.adsabs.harvard.edu/abs/2020A&A...642A.110H/abstract target=ref>Han et al. 2020</a>
+OGLE-2019-BLG-0299L b,,-0.18010,5830.0000000,,12.700,1976.89269,Mass,5.300000,,,,,,0.59,,,,266.6794583,-23.5843111,,2021,Microlensing,<a refstr=HAN_ET_AL__2021 href=https://ui.adsabs.harvard.edu/abs/2021A&A...655A..21H/abstract target=ref>Han et al. 2021</a>
