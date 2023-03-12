@@ -18,10 +18,10 @@ avatar: https://abdulmuhaymin.github.io/images/logo.png
 footer-links:
   dribbble:
   email: muhaymin.ph@gmail.com
-  facebook: muhaymin.moin
+  facebook:
   flickr:
   github: https://github.com/AbdulMuhaymin
-  instagram: muhaymin_abdul_
+  instagram:
   linkedin: muhayminabdul
   pinterest:
   rss: # just type anything here for a working RSS icon
@@ -40,7 +40,7 @@ google_analytics: G-87GSY2S4VH
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url: http://abdulmuhaymin.github.io 
+url: http://abdulmuhaymin.github.io
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)

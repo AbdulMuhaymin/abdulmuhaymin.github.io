@@ -6,11 +6,11 @@ permalink: /about/
 
 Hello!
 
-I am **Abdul Muhaymin**, a senior year undergraduate at the department of Physics, Bilkent University. I am primarily interested in computational material science. Other than material science, my interest covers a wide range such as data analysis (trendy stuff), computational astronomy and astrophysics (cool stuff) and nonlinear physics (nerdy stuff). I also have a keen interest in philosophy, especially in formal epistemology, logic and philosophy of science.
+I am **Abdul Muhaymin**, a senior year undergraduate at the department of Physics, Bilkent University. I am primarily interested in computational material science. Other than material science, my interest covers a wide range of topics such as data analysis (trendy stuff), computational astronomy and astrophysics (cool stuff) and nonlinear physics (nerdy stuff). I also have a keen interest in philosophy, especially in formal epistemology, logic and philosophy of science.
 
 ### My CV
 
-The full CV is available on request. 
+The full CV is available on request.
 
 ### Contact me
 There are lots of ways to reach me. I prefer email if it's not urgent.
@@ -24,10 +24,6 @@ Mobile: +90 552 503 7484 (WhatsApp available)
 ### Let's connect
 The best way to connect is to put a comment in the posts. Also you can find me in the following social media though I do not actively use them.
 
-Facebook: [https://www.facebook.com/muhaymin.moin/](https://www.facebook.com/muhaymin.moin/)
-
 Twitter: [https://twitter.com/muhaymin_abdul_](https://twitter.com/muhaymin_abdul_)
-
-Instagram: [https://www.instagram.com/muhaymin_abdul_/](https://www.instagram.com/muhaymin_abdul_/)
 
 Linkedin: [https://www.linkedin.com/in/muhayminabdul/](https://www.linkedin.com/in/muhayminabdul/)
