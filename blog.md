@@ -21,8 +21,8 @@ permalink: /blog/
 <ul>
   {% for post in site.categories.blogs %}
      <li> 	
-		<pre>{{ post.date | date_to_string }}</pre> 
-		» 
+		<i> {{ post.date | date_to_string }} </i> 
+		<b> » </b>  
 		<a href="{{ site.baseurl }}{{ post.url }}"> 
 			{{ post.title }} 
 		</a> 
