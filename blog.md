@@ -4,7 +4,7 @@ title: Blog
 permalink: /blog/
 ---
 
-<h4> Projects </h4>
+<h4 id="projects"> Projects </h4>
 <ul>
 	<li> <a href="https://abdulmuhaymin.github.io/ttv"> Homogeneous Transit Timing Variation Analyses for Ten Exoplanets </a> </li>
 
@@ -16,8 +16,7 @@ permalink: /blog/
 </ul>
 
 
-<h4> Posts </h4>
-<div class="posts"> 
+<h4 id="posts"> Posts </h4>
 <ul>
   {% for post in site.categories.blogs %}
      <li> 	
@@ -28,5 +27,5 @@ permalink: /blog/
 		</a> 
 	</li>
   {% endfor %}
-</ul> </div>
+</ul> 
 
