@@ -3,23 +3,6 @@ layout: page
 title: Blog
 permalink: /blog/
 ---
-<h4> Posts </h4>
-
-<div class="posts"> 
-<ul>
-  {% for post in site.categories.blogs %}
-     <li> 	
-		<pre> 
-			{{ post.date | date_to_string }} 
-		</pre> 
-		» 
-		<a href="{{ site.baseurl }}{{ post.url }}"> 
-			{{ post.title }} 
-		</a> 
-	</li>
-  {% endfor %}
-</ul> </div>
-
 
 <h4> Projects </h4>
 <ul>
@@ -32,4 +15,18 @@ permalink: /blog/
 	<li> <i> Ongoing Project:</i> Investigation of 1D carbon chain nanowires using density functional theory </li>
 </ul>
 
+
+<h4> Posts </h4>
+<div class="posts"> 
+<ul>
+  {% for post in site.categories.blogs %}
+     <li> 	
+		<pre>{{ post.date | date_to_string }}</pre> 
+		» 
+		<a href="{{ site.baseurl }}{{ post.url }}"> 
+			{{ post.title }} 
+		</a> 
+	</li>
+  {% endfor %}
+</ul> </div>
 
