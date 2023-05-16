@@ -10,7 +10,7 @@ permalink: /blog/
 
 	<li> <a href="https://abdulmuhaymin.github.io/ETZ"> Earth's Solar Transit Zone Exoplanets </a> </li>
 
-	<li> <a href="https://cpc.pythonanywhere.com/"> Preparation of a Comprehensive Circumbinary Planet Catalog Interface (alpha phase) </a> </li>
+	<li> <a href="https://cpc.pythonanywhere.com/"> Preparation of a Comprehensive Circumbinary Planet Catalog Interface (pre-alpha phase) </a> </li>
 	
 	<li> <i> Ongoing Project:</i> Investigation of 1D carbon chain nanowires using density functional theory </li>
 </ul>
