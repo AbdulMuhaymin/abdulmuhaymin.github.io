@@ -10,14 +10,22 @@
         margin: 0;
         padding: 0;
         background-color: #f0f0f0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
     }
     .container {
-        max-width: 600px;
-        margin: 50px auto;
-        padding: 20px;
+        display: flex;
+        max-width: 1000px;
+        height: 80%;
         background-color: #fff;
         border-radius: 8px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .dropdown-container {
+        flex: 1;
+        padding: 20px;
     }
     h1 {
         text-align: center;
@@ -35,34 +43,71 @@
         border: 1px solid #ccc;
         border-radius: 5px;
     }
+    .data-container {
+        flex: 2;
+        padding: 20px;
+        border-left: 1px solid #ccc;
+        overflow-y: auto;
+    }
 </style>
 </head>
 <body>
 <div class="container">
-    <h1>Defect Formation Energy Diagram</h1>
-    <div class="dropdown">
-        <label for="defect">Choose Defect:</label>
-        <select id="defect">
-            <option value="Cu">Cu</option>
-            <option value="Fe">Fe</option>
-            <option value="Ni">Ni</option>
-            <option value="Co">Co</option>
-            <option value="Cu-vacancy">Cu-vacancy</option>
-            <option value="Fe-vacancy">Fe-vacancy</option>
-            <!-- Add more defects here -->
-        </select>
+    <div class="dropdown-container">
+        <h1>Defect Formation Energy Diagram</h1>
+        <div class="dropdown">
+            <label for="defect">Choose Defect:</label>
+            <select id="defect">
+                <option value="Cu">Cu</option>
+                <option value="Fe">Fe</option>
+                <option value="Ni">Ni</option>
+                <option value="Co">Co</option>
+                <option value="Cu-vacancy">Cu-vacancy</option>
+                <option value="Fe-vacancy">Fe-vacancy</option>
+                <!-- Add more defects here -->
+            </select>
+        </div>
+        <div class="dropdown">
+            <label for="host">Choose Host:</label>
+            <select id="host">
+                <option value="ZnS">ZnS</option>
+                <!-- Add more hosts here if needed -->
+            </select>
+        </div>
     </div>
-    <div class="dropdown">
-        <label for="host">Choose Host:</label>
-        <select id="host" disabled>
-            <option value="ZnS">ZnS</option>
-        </select>
+    <div class="data-container" id="dataContainer">
+        <!-- Data points will be displayed here -->
     </div>
-    <!-- Add other elements for the diagram here -->
 </div>
 
 <script>
-    // JavaScript code goes here
+    const defectDropdown = document.getElementById('defect');
+    const hostDropdown = document.getElementById('host');
+    const dataContainer = document.getElementById('dataContainer');
+
+    defectDropdown.addEventListener('change', loadData);
+    hostDropdown.addEventListener('change', loadData);
+
+    function loadData() {
+        const defect = defectDropdown.value;
+        const host = hostDropdown.value;
+        const filename = `${defect}-${host}.dat`; // Assuming data files are named as defect-host.dat
+
+        fetch(filename)
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Failed to fetch data');
+                }
+                return response.text();
+            })
+            .then(data => {
+                dataContainer.textContent = data;
+            })
+            .catch(error => {
+                console.error('Error fetching data:', error);
+                dataContainer.textContent = 'Error loading data. Please try again later.';
+            });
+    }
 </script>
 </body>
 </html>
