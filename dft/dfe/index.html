@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Defect Formation Energy Diagram</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f0f0f0;
+    }
+    .container {
+        max-width: 600px;
+        margin: 50px auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+        text-align: center;
+    }
+    .dropdown {
+        margin-bottom: 20px;
+    }
+    .dropdown label {
+        display: block;
+        margin-bottom: 5px;
+    }
+    .dropdown select {
+        width: 100%;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+</style>
+</head>
+<body>
+<div class="container">
+    <h1>Defect Formation Energy Diagram</h1>
+    <div class="dropdown">
+        <label for="defect">Choose Defect:</label>
+        <select id="defect">
+            <option value="Cu">Cu</option>
+            <option value="Fe">Fe</option>
+            <option value="Ni">Ni</option>
+            <option value="Co">Co</option>
+            <option value="Cu-vacancy">Cu-vacancy</option>
+            <option value="Fe-vacancy">Fe-vacancy</option>
+            <!-- Add more defects here -->
+        </select>
+    </div>
+    <div class="dropdown">
+        <label for="host">Choose Host:</label>
+        <select id="host" disabled>
+            <option value="ZnS">ZnS</option>
+        </select>
+    </div>
+    <!-- Add other elements for the diagram here -->
+</div>
+
+<script>
+    // JavaScript code goes here
+</script>
+</body>
+</html>
