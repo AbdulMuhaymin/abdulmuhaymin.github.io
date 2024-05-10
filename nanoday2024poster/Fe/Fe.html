@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fe in ZnS</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .section {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+
+  .section-header {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+  }
+
+  .section-header::after {
+    content: '-';
+    position: absolute;
+    top: 50%;
+    right: 20%;
+    transform: translateY(-50%);
+    transition: transform 0.3s ease;
+  }
+
+  .section-header.collapsed::after {
+    content: '+';
+    transform: translateY(-50%) rotate(90deg);
+  }
+
+  .section-content {
+    padding: 10px;
+    display: none;
+  }
+
+  .section-content img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+  .home-button {
+    display: block;
+    width: 100px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+
+  .home-button:hover {
+    background-color: #0056b3;
+  }
+
+  .divider {
+    border-top: 2px solid #ddd;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <a href="../" class="home-button">Home</a>
+  <h1>Fe in ZnS</h1>
+  <div class="divider"></div>
+
+  <div class="section">
+    <div class="section-header collapsed" onclick="toggleSection(this)">Defect Formation Energy</div>
+    <div class="section-content">
+      <p>Demo text for Section 1</p>
+      <img src="dfe.png" alt="Example Image 1">
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-header collapsed" onclick="toggleSection(this)">Relaxation of various charge states</div>
+    <div class="section-content">
+      <p>Demo text for Section 2</p>
+      <img src="Fe_in_ZnS.q0.gif" alt="Example Image 2">
+    </div>
+  </div>
+
+
+  <div class="section">
+    <div class="section-header collapsed" onclick="toggleSection(this)">Density of states</div>
+    <div class="section-content">
+      <p>Demo text for Section 2</p>
+      <img src="Fe_in_ZnS_dos.q0.png" alt="Example Image 2">
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-header collapsed" onclick="toggleSection(this)">Data</div>
+    <div class="section-content">
+      <p>Demo text for Section 3</p>
+      <table>
+        <tr>
+          <th>Column 1</th>
+          <th>Column 2</th>
+        </tr>
+        <tr>
+          <td>Data 1</td>
+          <td>Data 2</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</div>
+
+<script>
+  function toggleSection(header) {
+    var content = header.nextElementSibling;
+    content.style.display = content.style.display === 'block' ? 'none' : 'block';
+    header.classList.toggle('collapsed');
+  }
+</script>
+</body>
+</html>
