@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>pristine ZnS</title>
+<link rel="stylesheet" type="text/css" href="../style.css">
+</head>
+<body>
+<div class="container">
+  <a href="../index.html" class="home-button">Home</a>
+  <h1>Pristine ZnS</h1>
+  Click the header of the following sections to expand them.
+  <p>The following sections contain information of bulk pristine ZnS without any defect centers.  </p>
+  <div class="divider"></div>
+
+  <div class="section">
+    <div class="section-header collapsed" onclick="toggleSection(this)">Convergence Tests</div>
+    <div class="section-content">
+      <p> Kinetic energy (wavefunction) cutoff convergence test: </p>
+      <figure>
+        <img src="ZnS_conv_ecutwfc.png">
+        <figcaption><code> .. </code> </figcaption>
+      </figure>
+      <p> Kinetic energy (charge density) cutoff convergence test: </p>
+      <figure>
+        <img src="ZnS_conv_ecutrho.png">
+        <figcaption><code> .. </code> </figcaption>
+      </figure>
+      <p> K-point grid density convergence test: </p>
+      <figure>
+        <img src="ZnS_conv_kgrid.png">
+        <figcaption><code> .. </code> </figcaption>
+      </figure>
+      <p> Smearing parameter convergence test: </p>
+      <figure>
+        <img src="ZnS_conv_smearing.png">
+        <figcaption><code> .. </code> </figcaption>
+      </figure>
+      <p> Lattice parameter convergence test: </p>
+      <figure>
+        <img src="ZnS_conv_smearing.png">
+        <figcaption><code> .. </code> </figcaption>
+      </figure>
+    </div>
+  </div>
+
+
+  <div class="section">
+    <div class="section-header collapsed" onclick="toggleSection(this)">Electronic and magnetic properties</div>
+    <div class="section-content">
+      <p> The spin-polarized local density of states (DOS) curves are shown. Note that the curve is plotted referencing the pristine ZnS Fermi level at zero. The pristine Fermi level (Valence Band Maximum) is at 5.5452 eV. </p>
+      <figure>
+        <img src="ZnS.dos.png">
+        <figcaption><code> .. </code> </figcaption>
+      </figure>
+    </div>
+  </div>
+
+
+  <div class="section">
+    <div class="section-header collapsed" onclick="toggleSection(this)">Chemical potentials and other data</div>
+    <div class="section-content">
+     <p> a</p>
+    </div>
+  </div>
+
+</div>
+
+<script>
+  function toggleSection(header) {
+    var content = header.nextElementSibling;
+    content.style.display = content.style.display === 'block' ? 'none' : 'block';
+    header.classList.toggle('collapsed');
+  }
+</script>
+</body>
+</html>
