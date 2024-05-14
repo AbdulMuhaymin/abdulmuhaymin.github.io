@@ -4,104 +4,50 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Co in ZnS</title>
-<style>
-  body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-  }
-
-  .container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-  }
-
-  .section {
-    margin-bottom: 20px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    overflow: hidden;
-  }
-
-  .section-header {
-    padding: 10px;
-    background-color: #007bff;
-    color: #fff;
-    font-size: 20px;
-    font-weight: bold;
-    cursor: pointer;
-    position: relative;
-  }
-
-  .section-header::after {
-    content: '-';
-    position: absolute;
-    top: 50%;
-    right: 20%;
-    transform: translateY(-50%);
-    transition: transform 0.3s ease;
-  }
-
-  .section-header.collapsed::after {
-    content: '+';
-    transform: translateY(-50%) rotate(90deg);
-  }
-
-  .section-content {
-    padding: 10px;
-    display: none;
-  }
-
-  .section-content img {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 10px;
-  }
-
-  .home-button {
-    display: block;
-    width: 100px;
-    margin: 20px auto;
-    padding: 10px;
-    background-color: #007bff;
-    color: #fff;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 5px;
-  }
-
-  .home-button:hover {
-    background-color: #0056b3;
-  }
-
-  .divider {
-    border-top: 2px solid #ddd;
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
-</style>
+<link rel="stylesheet" type="text/css" href="../style.css">
 </head>
 <body>
 <div class="container">
-  <a href="../" class="home-button">Home</a>
+  <a href="../index.html" class="home-button">Home</a>
   <h1>Co in ZnS</h1>
+  Click the header of the following sections to expand them.
   <div class="divider"></div>
 
   <div class="section">
     <div class="section-header collapsed" onclick="toggleSection(this)">Defect Formation Energy</div>
     <div class="section-content">
-      <p>Demo text for Section 1</p>
-      <img src="dfe.png" alt="Example Image 1">
+      <p>The following section shows the relaxation of ZnS with Zn-substitutional Co impurity with different charged state, <code> q</code>. A negative value of <code> q</code> means excess of electrons, and vice-versa. The green arrows denote the forces acting on the atoms. Using BFGS algorithm, we relaxed the system and obtained the atomic positions with all components of all forces smaller than <code>1e-3 a.u.</code> </p>
+      <figure>
+        <img src="dfe.png">
+        <figcaption><code> q=0</code> </figcaption>
+      </figure>
+      <figure>
+        <img src="dfe_relaxed_Co.png">
+        <figcaption><code> q=-1</code> </figcaption>
+      </figure>
+      <figure>
+        <img src="dfe_unrelaxed_Co.png">
+        <figcaption><code> q=+1</code> </figcaption>
+      </figure>
     </div>
   </div>
 
   <div class="section">
     <div class="section-header collapsed" onclick="toggleSection(this)">Relaxation of various charge states</div>
     <div class="section-content">
-      <p>Demo text for Section 2</p>
-      <img src="Co_in_ZnS.q0.gif" alt="Example Image 2">
+      <p>The following section shows the relaxation of ZnS with Zn-substitutional Co impurity with different charged state, <code> q</code>. A negative value of <code> q</code> means excess of electrons, and vice-versa. The green arrows denote the forces acting on the atoms. Using BFGS algorithm, we relaxed the system and obtained the atomic positions with all components of all forces smaller than <code>1e-3 a.u.</code> </p>
+      <figure>
+        <img src="Co_in_ZnS_q0.gif">
+        <figcaption><code> q=0</code> </figcaption>
+      </figure>
+      <figure>
+        <img src="Co_in_ZnS_qn1.gif">
+        <figcaption><code> q=-1</code> </figcaption>
+      </figure>
+      <figure>
+        <img src="Co_in_ZnS_qp1.gif">
+        <figcaption><code> q=+1</code> </figcaption>
+      </figure>
     </div>
   </div>
 
@@ -109,15 +55,26 @@
   <div class="section">
     <div class="section-header collapsed" onclick="toggleSection(this)">Density of states</div>
     <div class="section-content">
-      <p>Demo text for Section 2</p>
-      <img src="Co_in_ZnS_dos.q0.png" alt="Example Image 2">
+      <p>The following section shows the Density of States (DOS) of ZnS with Zn-substitutional Co impurity with different charged state, <code> q</code>. 
+      <figure>
+        <img src="Co_in_ZnS_q0.dos.png">
+        <figcaption><code> q=0</code> </figcaption>
+      </figure>
+      <figure>
+        <img src="Co_in_ZnS_qn1.dos.png">
+        <figcaption><code> q=-1</code> </figcaption>
+      </figure>
+      <figure>
+        <img src="Co_in_ZnS_qp1.dos.png">
+        <figcaption><code> q=+1</code> </figcaption>
+      </figure>
     </div>
   </div>
 
   <div class="section">
     <div class="section-header collapsed" onclick="toggleSection(this)">Data</div>
     <div class="section-content">
-      <p>Demo text for Section 3</p>
+      <p>Demo data</p>
       <table>
         <tr>
           <th>Column 1</th>
