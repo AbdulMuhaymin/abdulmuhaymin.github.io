@@ -6,6 +6,8 @@ permalink: /blog/
 
 <h4 id="projects"> Projects </h4>
 <ul>
+	<li> <a href="https://abdulmuhaymin.github.io/nanoday2024poster"> Transition metal dopants in the wide band gap semiconductor ZnS: a first-principles study</a> </li>
+
 	<li> <a href="https://abdulmuhaymin.github.io/ttv"> Homogeneous Transit Timing Variation Analyses for Ten Exoplanets </a> </li>
 
 	<li> <a href="https://abdulmuhaymin.github.io/ETZ"> Earth's Solar Transit Zone Exoplanets </a> </li>
