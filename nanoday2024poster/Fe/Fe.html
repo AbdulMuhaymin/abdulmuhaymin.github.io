@@ -11,31 +11,28 @@
   <a href="../index.html" class="home-button">Home</a>
   <h1>Fe in ZnS</h1>
   Click the header of the following sections to expand them.
+  <p>The following sections contain information of ZnS with Zn-substitutional Fe impurity with different charged state, <code> q</code>. A negative value of <code> q</code> means excess of electrons, and vice-versa. </p>
   <div class="divider"></div>
 
   <div class="section">
-    <div class="section-header collapsed" onclick="toggleSection(this)">Defect Formation Energy</div>
+    <div class="section-header collapsed" onclick="toggleSection(this)">Defect formation energy</div>
     <div class="section-content">
-      <p>The following section shows the relaxation of ZnS with Zn-substitutional Fe impurity with different charged state, <code> q</code>. A negative value of <code> q</code> means excess of electrons, and vice-versa. The green arrows denote the forces acting on the atoms. Using BFGS algorithm, we relaxed the system and obtained the atomic positions with all components of all forces smaller than <code>1e-3 a.u.</code> </p>
+      <p> Defect formation energy for both the relaxed and unrelaxed structures are shown in case of Zn-rich and Zn-poor environmental condition. </p>
       <figure>
-        <img src="dfe.png">
-        <figcaption><code> q=0</code> </figcaption>
+        <img src="dfe_rich_Fe.png">
+        <figcaption><code> Zn-rich condition</code> </figcaption>
       </figure>
       <figure>
-        <img src="dfe_relaxed_Fe.png">
-        <figcaption><code> q=-1</code> </figcaption>
-      </figure>
-      <figure>
-        <img src="dfe_unrelaxed_Fe.png">
-        <figcaption><code> q=+1</code> </figcaption>
+        <img src="dfe_poor_Fe.png">
+        <figcaption><code> Zn-poor condition</code> </figcaption>
       </figure>
     </div>
   </div>
 
   <div class="section">
-    <div class="section-header collapsed" onclick="toggleSection(this)">Relaxation of various charge states</div>
+    <div class="section-header collapsed" onclick="toggleSection(this)">Relaxation</div>
     <div class="section-content">
-      <p>The following section shows the relaxation of ZnS with Zn-substitutional Fe impurity with different charged state, <code> q</code>. A negative value of <code> q</code> means excess of electrons, and vice-versa. The green arrows denote the forces acting on the atoms. Using BFGS algorithm, we relaxed the system and obtained the atomic positions with all components of all forces smaller than <code>1e-3 a.u.</code> </p>
+     The green arrows denote the forces acting on the atoms. Using BFGS algorithm, we relaxed the system and obtained the atomic positions with all components of all forces smaller than <code>1e-3 a.u.</code> </p>
       <figure>
         <img src="Fe_in_ZnS_q0.gif">
         <figcaption><code> q=0</code> </figcaption>
@@ -44,10 +41,6 @@
         <img src="Fe_in_ZnS_qn1.gif">
         <figcaption><code> q=-1</code> </figcaption>
       </figure>
-      <figure>
-        <img src="Fe_in_ZnS_qp1.gif">
-        <figcaption><code> q=+1</code> </figcaption>
-      </figure>
     </div>
   </div>
 
@@ -55,7 +48,7 @@
   <div class="section">
     <div class="section-header collapsed" onclick="toggleSection(this)">Density of states</div>
     <div class="section-content">
-      <p>The following section shows the Density of States (DOS) of ZnS with Zn-substitutional Fe impurity with different charged state, <code> q</code>. 
+      <p> The spin-polarized local density of states (DOS) curves are shown. Note that the curve is plotted referencing the pristine ZnS Fermi level at zero. The pristine Fermi level (Valence Band Maximum) is at 5.5452 eV. </p>
       <figure>
         <img src="Fe_in_ZnS_q0.dos.png">
         <figcaption><code> q=0</code> </figcaption>
@@ -63,10 +56,6 @@
       <figure>
         <img src="Fe_in_ZnS_qn1.dos.png">
         <figcaption><code> q=-1</code> </figcaption>
-      </figure>
-      <figure>
-        <img src="Fe_in_ZnS_qp1.dos.png">
-        <figcaption><code> q=+1</code> </figcaption>
       </figure>
     </div>
   </div>
