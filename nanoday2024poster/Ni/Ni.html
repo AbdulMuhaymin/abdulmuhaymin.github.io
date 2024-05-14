@@ -4,153 +4,41 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Ni in ZnS</title>
-<style>
-  body {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #d3d3d3;
-  }
-
-  .container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-  }
-
-  .section {
-    margin-bottom: 20px;
-    padding: 10px;
-    margin: 10px;
-    border: 1px solid #085181;
-    border-radius: 5px;
-    overflow: hidden;
-  }
-
-  .section-header {
-    padding: 10px;
-    padding: 10px;
-    margin: 10px;
-    background-color: #38095f;
-    color: #ffffff;
-    font-size: 20px;
-    font-weight: bold;
-    cursor: pointer;
-    position: relative;
-  }
-
-  .section-header:hover {
-    background-color: #643083;
-  }
-
-  .section-header::after {
-    content: '-';
-    position: absolute;
-    padding: 10px;
-    margin: 10px;
-    top: 50%;
-    right: 10px;
-    transform: translateY(-50%);
-    transition: transform 0.3s ease;
-  }
-
-  .button-container {
-    display: flex;
-    padding: 10px;
-    margin: 10px;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    max-width: 600px;
-  }
-
-  .button {
-    width: 40%;
-    height: 100px;
-    margin: 10px;
-    border: none;
-    border-radius: 10px;
-    background-color: #38095f;
-    color: #fff;
-    font-size: 24px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-
-  .button:hover {
-    padding: 10px;
-    margin: 10px;
-    background-color: #643083;
-  }
-
-  .section-header.collapsed::after {
-    content: '+';
-    padding: 10px;
-    margin: 10px;
-    transform: translateY(-50%) rotate(90deg);
-  }
-
-  .section-content {
-    padding: 10px;
-    margin: 10px;
-    display: none;
-  }
-
-  .section-content img {
-    max-width: 100%;
-    padding: 10px;
-    margin: 10px;
-    height: auto;
-    margin-bottom: 10px;
-  }
-
-  .home-button {
-    display: block;
-    width: 100px;
-    margin: 20px auto;
-    padding: 10px;
-    background-color: #38095f;
-    color: #fff;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 5px;
-  }
-
-  .home-button:hover {
-    background-color: #643083;
-  }
-
-  .divider {
-    border-top: 2px solid #360394;
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
-</style>
+<link rel="stylesheet" type="text/css" href="../style.css">
 </head>
 <body>
 <div class="container">
-  <a href="../" class="home-button">Home</a>
+  <a href="../index.html" class="home-button">Home</a>
   <h1>Ni in ZnS</h1>
+  Click the header of the following sections to expand them.
   <div class="divider"></div>
 
   <div class="section">
     <div class="section-header collapsed" onclick="toggleSection(this)">Defect Formation Energy</div>
     <div class="section-content">
-      <p> </p>
-      <img src="dfe.png" alt="Example Image 1">
-    </div>
-    <div class="section-content">
-      <p> fd</p>
-      <img src="dfe.png" alt="Example Image 1">
+      <p> d </p>
+      <img src="dfe.png">
+      <img src="dfe_relaxed_Ni.png">
+      <img src="dfe_unrelaxed_Ni.png">
     </div>
   </div>
 
   <div class="section">
     <div class="section-header collapsed" onclick="toggleSection(this)">Relaxation of various charge states</div>
     <div class="section-content">
-      <p>q=0</p>
-      <img src="Ni_in_ZnS_q0.gif" alt="Example Image 2">
+      <p>The following section shows the relaxation of ZnS with Zn-substitutional Ni impurity with different charged state, <code> q</code>. A negative value of <code> q</code> means excess of electrons, and vice-versa. The green arrows denote the forces acting on the atoms. Using BFGS algorithm, we relaxed the system and obtained the atomic positions with all components of all forces smaller than <code>1e-3 a.u.</code> </p>
+      <figure>
+        <img src="Ni_in_ZnS_q0.gif">
+        <figcaption><code> q=0</code> </figcaption>
+      </figure>
+      <figure>
+        <img src="Ni_in_ZnS_qn1.gif">
+        <figcaption><code> q=-1</code> </figcaption>
+      </figure>
+      <figure>
+        <img src="Ni_in_ZnS_qp1.gif">
+        <figcaption><code> q=+1</code> </figcaption>
+      </figure>
     </div>
   </div>
 
