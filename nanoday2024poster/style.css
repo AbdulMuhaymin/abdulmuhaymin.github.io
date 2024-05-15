@@ -6,10 +6,18 @@
   }
 
   .container {
-    max-width: 800px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
   }
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  td {
+    text-align: center;
+  }
+  
   .marquee {
     color: rgb(255, 0, 0);
       white-space: nowrap;
