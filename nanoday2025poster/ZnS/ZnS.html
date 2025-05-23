@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>pristine ZnS</title>
+<link rel="stylesheet" type="text/css" href="../style.css">
+</head>
+<body>
+<div class="container">
+  <a href="../index.html" class="home-button">Home</a>
+  <h1>Pristine ZnS</h1>
+  Click the header of the following sections to expand them.
+  <p>The following sections contain information of bulk pristine ZnS without any defect centers.  </p>
+  <div class="divider"></div>
+
+  <div class="section">
+    <div class="section-header collapsed" onclick="toggleSection(this)">Convergence Tests</div>
+    <div class="section-content">
+      <p> Kinetic energy (wavefunction) cutoff convergence test: </p>
+      <figure>
+        <img src="ZnS_conv_ecutwfc.png">
+        <figcaption><code> .. </code> </figcaption>
+      </figure>
+      <p> Kinetic energy (charge density) cutoff convergence test: </p>
+      <figure>
+        <img src="ZnS_conv_ecutrho.png">
+        <figcaption><code> .. </code> </figcaption>
+      </figure>
+      <p> K-point grid density convergence test: </p>
+      <figure>
+        <img src="ZnS_conv_kgrid.png">
+        <figcaption><code> .. </code> </figcaption>
+      </figure>
+      <p> Smearing parameter convergence test: </p>
+      <figure>
+        <img src="ZnS_conv_smearing.png">
+        <figcaption><code> .. </code> </figcaption>
+      </figure>
+      <p> Lattice parameter convergence test: </p>
+      <figure>
+        <img src="ZnS_conv_alat.png">
+        <figcaption><code> .. </code> </figcaption>
+      </figure>
+    </div>
+  </div>
+
+
+  <div class="section">
+    <div class="section-header collapsed" onclick="toggleSection(this)">Electronic and magnetic properties</div>
+    <div class="section-content">
+      <p> The spin-polarized local density of states (DOS) curves are shown. Note that the curve is plotted referencing the pristine ZnS Fermi level at zero. The pristine Fermi level (Valence Band Maximum) is at 5.5452 eV. </p>
+      <figure>
+        <img src="ZnS.dos.png">
+        <figcaption><code> .. </code> </figcaption>
+      </figure>
+    </div>
+  </div>
+
+
+  <div class="section">
+    <div class="section-header collapsed" onclick="toggleSection(this)">Chemical potentials and other data</div>
+    <div class="section-content">
+      <table style="width:100%">
+        <tr>
+          <th rowspan="2">Element</th>
+          <th colspan="5">Converged values</th>
+          <th rowspan="2">Chemical <br> potential <br> (Ry/atom)</th>
+        </tr>
+        <tr>
+          <th> ecutwfc (Ry) </th>
+          <th> ecutrho (Ry) </th>
+          <th> k-points grid </th>
+          <th> smearing <br> type and <br> broadening (Ry) </th>
+          <th> lattice <br> parameter (Å) </th>
+        </tr>
+        <tr>
+          <td> <a href="https://pseudopotentials.quantum-espresso.org/upf_files/Zn.pbe-dnl-kjpaw_psl.1.0.0.UPF"> Zn </a></td>
+          <td>70</td>
+          <td>280</td>
+          <td>14×14×7</td>
+          <td>Marzari-Vanderbilt <br> cold smearing, 0.0005 </td>
+          <td>a = 2.667, c = 4.868</td>
+          <td>-243.722726 </td>
+        </tr>
+        <tr>
+          <td><a href="https://pseudopotentials.quantum-espresso.org/upf_files/S.pbe-n-kjpaw_psl.1.0.0.UPF"> S </a></td>
+          <td>55</td>
+          <td>220</td>
+          <td>10×6×4</td>
+          <td>no smearing</td>
+          <td>S-S bond length = 1.93</td>
+          <td> -66.2272321  </td>
+        </tr>
+       <!--  <tr>
+          <td>Cu </td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Ni </td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Co </td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Fe </td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr> -->
+      </table>
+    </div>
+  </div>
+
+</div>
+
+<script>
+  function toggleSection(header) {
+    var content = header.nextElementSibling;
+    content.style.display = content.style.display === 'block' ? 'none' : 'block';
+    header.classList.toggle('collapsed');
+  }
+</script>
+</body>
+</html>
