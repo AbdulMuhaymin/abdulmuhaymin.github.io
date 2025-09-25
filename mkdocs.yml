@@ -1,0 +1,73 @@
+site_name: Workshop 2025
+site_url: https://abdulmuhaymin.github.io/Workshop-2025/
+theme:
+  features:
+    - navigation.footer
+  name: material
+  icon:
+    logo: fontawesome/solid/w
+  palette:
+    # Light Mode
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Light mode
+      primary: blue
+      accent: deep orange
+    # Dark Mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Dark mode
+      primary: green
+      accent: deep purple
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - admonition
+  - pymdownx.details
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.arithmatex:
+      generic: true
+  
+copyright: Copyright &copy; 2025 Abdul Muhaymin
+extra:
+  analytics:
+    provider: google
+    property: G-RRH97EF2LH
+  social:
+    - icon: material/web
+      link: https://abdulmuhaymin.github.io/
+    - icon: material/facebook
+      link: https://www.facebook.com/muhaymin.moin/
+    - icon: material/linkedin
+      link: https://www.linkedin.com/in/muhayminabdul/
+    - icon: material/github
+      link: https://github.com/AbdulMuhaymin/
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+
+nav:
+  - Home: index.md
+  - Assignments: hw.md
+  - Track Your Progress: progress.md
+  - How to receive support: support.md
+  - "<b>Day 0:</b> Setup & Preparation" : day0.md
+  - "<b>Day 1:</b> Introduction to DFT" : day1.md
+  - "<b>Day 2:</b> Practical aspects of DFT" : day2.md
+  - "<b>Day 3:</b> Magnetization & Hubbard parameters" : day3.md
+  - "<b>Day 4:</b> Doping, defects, & lower dimensional materials" : day4.md
+  - "<b>Day 5:</b> Excited states & many-body physics" : day5.md

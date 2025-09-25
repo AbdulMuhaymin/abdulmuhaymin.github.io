@@ -1,0 +1,30 @@
+&CONTROL
+  calculation = 'bands'
+  outdir = './tmp/'
+  prefix = 'Si'
+  pseudo_dir = '../'
+  verbosity= 'low'
+/
+&SYSTEM
+  ntyp = 1
+  nat = 2
+  ibrav = 2
+  celldm(1) =10.410909236
+  ecutwfc = 50
+  nbnd = 8
+/
+&ELECTRONS
+  conv_thr = 1.0d-8
+/
+ATOMIC_SPECIES
+Si     28.0855 Si.pbe-n-rrkjus_psl.1.0.0.UPF
+ATOMIC_POSITIONS (alat)
+ Si 0.00 0.00 0.00
+ Si 0.25 0.25 0.25
+K_POINTS {crystal_b}
+5
+  0.0000 0.5000 0.0000 20 !L
+  0.0000 0.0000 0.0000 30 !Gamma
+  -0.500 0.0000 -0.500 10 !X
+  -0.375 0.2500 -0.375 30 !U
+  0.0000 0.0000 0.0000 20 !Gamma
