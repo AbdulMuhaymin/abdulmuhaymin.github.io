@@ -1,0 +1,33 @@
+&CONTROL
+   calculation = 'scf'
+   outdir = './tmp/'
+   prefix = 'Fe_FM'
+   pseudo_dir = './'
+   verbosity= 'high'
+/
+&SYSTEM
+   ibrav = 3
+   celldm(1) = 5.42
+   nat = 1
+   ntyp = 1
+   ecutwfc = 40
+
+   occupations='smearing'
+   smearing='cold'
+   degauss=0.01
+
+   nspin = 2, 
+   starting_magnetization(1) = 0.6
+/
+
+&ELECTRONS
+/
+
+ATOMIC_SPECIES
+   Fe  55.845  Fe.pbe-spn-kjpaw_psl.1.0.0.UPF
+
+ATOMIC_POSITIONS crystal
+   Fe   0.00000    0.00000    0.00000 
+
+K_POINTS automatic
+   10 10 10   0 0 0

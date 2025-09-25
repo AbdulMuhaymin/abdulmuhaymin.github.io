@@ -1,0 +1,28 @@
+&control
+ calculation='vc-relax'
+ prefix='1c_ecut'
+ pseudo_dir='./'
+/
+&system    
+ ibrav 	= 6
+ a     	= 10
+ c     	= 2.6
+ nat   	= 2
+ ntyp  	= 1
+ ecutwfc = 50
+/
+&electrons
+conv_thr = 10e-8
+/
+&ions
+/
+&cell
+press_conv_thr = 1
+/
+ATOMIC_SPECIES
+ C      12.01100     C.pbe-n-kjpaw_psl.1.0.0.UPF
+ATOMIC_POSITIONS crystal
+ C 0.00 0.00 0.00 
+ C 0.00 0.00 0.50
+K_POINTS automatic
+   1 1 20 0 0 0

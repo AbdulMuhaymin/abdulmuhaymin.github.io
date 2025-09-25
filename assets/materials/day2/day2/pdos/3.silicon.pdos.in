@@ -1,0 +1,5 @@
+&PROJWFC
+ prefix='Si',
+ outdir='./tmp/',
+ filpdos='Si.pdos.dat'
+/
